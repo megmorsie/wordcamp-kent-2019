@@ -28,7 +28,14 @@ h3 {
 	.site-branding {
 		margin-bottom: 65px !important;
 	}
+	.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
+		position: relative;
+	}
+	.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
+		height: auto;
+	}
 }
+	
 
 @media screen and (min-width: 769px) {
 	.twentyseventeen.entry-title-front-page.has-header-image .site-branding, .twentyseventeen-front-page.has-header-video .site-branding, .home.blog.has-header-image .site-branding, .home.blog.has-header-video .site-branding {
