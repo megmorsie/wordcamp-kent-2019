@@ -31,7 +31,14 @@ h3 {
 	.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
 		position: relative;
 	}
-	.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
+	.has-header-image.twentyseventeen-front-page .custom-header, 
+	.has-header-video.twentyseventeen-front-page .custom-header, 
+	.has-header-image.home.blog .custom-header, 
+	.has-header-video.home.blog .custom-header, 
+	.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, 
+	.admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, 
+	.admin-bar.home.blog.has-header-image .custom-header-media, 
+	.admin-bar.home.blog.has-header-video .custom-header-media {
 		height: auto;
 	}
 }
