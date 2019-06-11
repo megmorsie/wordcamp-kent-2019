@@ -5,7 +5,10 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-	.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
+	.has-header-image.twentyseventeen-front-page .site-branding, 
+	.has-header-video.twentyseventeen-front-page .site-branding, 
+	.has-header-image.home.blog .site-branding, 
+	.has-header-video.home.blog .site-branding {
 		display: block;
 		height: auto;
 		position: absolute;
@@ -19,7 +22,9 @@ h3 {
 		margin-bottom: -2px !important;
 	}
 	
-	.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+	.has-header-image .custom-header-media img, 
+	.has-header-video .custom-header-media video, 
+	.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
 		width: inherit;
 	}
 }
@@ -28,7 +33,9 @@ h3 {
 	.site-branding {
 		margin-bottom: 65px !important;
 	}
-	.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe {
+	.has-header-image .custom-header-media img, 
+	.has-header-video .custom-header-media video, 
+	.has-header-video .custom-header-media iframe {
 		position: relative;
 	}
 	.has-header-image.twentyseventeen-front-page .custom-header, 
@@ -45,16 +52,26 @@ h3 {
 	
 
 @media screen and (min-width: 769px) {
-	.twentyseventeen.entry-title-front-page.has-header-image .site-branding, .twentyseventeen-front-page.has-header-video .site-branding, .home.blog.has-header-image .site-branding, .home.blog.has-header-video .site-branding {
+	.twentyseventeen.entry-title-front-page.has-header-image .site-branding, 
+	.twentyseventeen-front-page.has-header-video .site-branding, 
+	.home.blog.has-header-image .site-branding, 
+	.home.blog.has-header-video .site-branding {
 		margin-bottom: 30px !important;
 	}
 }
 
-.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a, .site-header .navigation-top .menu-scroll-down, .admin-bar .site-navigation-fixed.navigation-top a:hover, .navigation-top a:hover, .admin-bar .site-navigation-fixed.navigation-top .current_page_item > a {
+.navigation-top .current-menu-item > a, 
+.navigation-top .current_page_item > a, 
+.site-header .navigation-top .menu-scroll-down, 
+.admin-bar .site-navigation-fixed.navigation-top a:hover, 
+.navigation-top a:hover, 
+.admin-bar .site-navigation-fixed.navigation-top .current_page_item > a {
 	color: #C1D948;
 }
 
-input + button, input + input[type="button"], input + input[type="submit"], a.button {
+input + button, input + input[type="button"], 
+input + input[type="submit"], 
+a.button {
 	background-color: #C1D948;
 	color: #53144B;
 	font-size: 25px;
@@ -62,7 +79,8 @@ input + button, input + input[type="button"], input + input[type="submit"], a.bu
 /* font-family: 'Acme', sans-serif; */
 }
 
-a.button, a.button:hover {
+a.button, 
+a.button:hover {
 	font-weight: bold;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -70,7 +88,14 @@ a.button, a.button:hover {
 	transition: color 80ms ease-in;
 }
 
-button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, a.button:hover, a.button:focus {
+button:hover, 
+button:focus, 
+input[type="button"]:hover, 
+input[type="button"]:focus, 
+input[type="submit"]:hover, 
+input[type="submit"]:focus, 
+a.button:hover, 
+a.button:focus {
 	background-color: #9E2482;
 	color: #C1D948;
 }
